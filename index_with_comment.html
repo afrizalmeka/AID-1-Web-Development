@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!-- 
+<!DOCTYPE html> adalah deklarasi DOCTYPE dalam HTML. Ini memberitahu browser apa jenis dokumen HTML yang akan ditampilkan.
+
+Deklarasi ini sangat penting karena browser menggunakannya untuk menentukan bagaimana halaman web harus diterjemahkan dan 
+ditampilkan. Dalam hal ini, <!DOCTYPE html> menunjukkan bahwa halaman web yang ditampilkan adalah HTML5, yaitu versi terbaru 
+dari HTML. 
+-->
+
+
+<!-- sebuah tag & elemen wajib yang ada di sebuah html -->
+<html lang="en">
+
+
+<!-- Tag <head> adalah bagian dari halaman web yang tidak ditampilkan pada layar, tetapi memuat informasi penting tentang 
+halaman itu sendiri seperti judul dan deskripsi. Browser dan mesin pencari menggunakan informasi ini untuk memahami isi 
+halaman web dan memberikan informasi yang sesuai ke pengguna. -->
+<head>
+    <!-- Ini adalah sebuah judul -->
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/styles.css">
+    <!-- 
+    Baris kode <link rel="stylesheet" href="assets/styles.css"> adalah elemen HTML yang digunakan 
+    untuk menghubungkan halaman HTML dengan file CSS.
+
+    <link> adalah elemen HTML yang digunakan untuk menghubungkan halaman HTML dengan sumber lain, seperti file CSS, file gambar, dll.
+
+    'rel' adalah atribut yang digunakan untuk menentukan relasi antara halaman HTML dan file CSS. Dalam hal ini, relasi adalah 
+    "stylesheet", yang menunjukkan bahwa file CSS bertanggung jawab untuk menentukan gaya visual halaman HTML.
+    
+    'href' adalah atribut yang digunakan untuk menentukan lokasi file CSS yang akan digunakan. Dalam hal ini, file CSS disimpan
+    dalam folder "assets" dengan nama "styles.css".
+    
+    Jadi, baris kode ini menghubungkan halaman HTML dengan file CSS yang berisi deklarasi gaya visual untuk halaman HTML.
+    -->
+</head>
+
+
+<!-- 
+Tag <body> adalah bagian utama dari halaman web yang berisi semua konten yang akan ditampilkan pada layar, 
+seperti teks, gambar, link, form, dll.
+
+Semua elemen HTML yang ditampilkan pada halaman web harus berada dalam <body>. Ini adalah bagian yang paling 
+penting dari halaman web karena menentukan apa yang akan ditampilkan pada layar ketika halaman web dibuka.
+
+Jadi, tag <body> menentukan bahwa bagian ini adalah bagian utama dari halaman web yang berisi semua konten 
+yang akan ditampilkan. 
+-->
+<body>
+    <!-- 
+    Ini adalah tag html untuk membuat judul. Ada beberapa jenis judul yang dapat dibuat, 
+    mulai dari <h1> (judul terbesar) sampai <h6> (judul terkecil).
+    -->
+    <h1>AID-1-Web Development</h1>
+
+    <!-- 
+    Tag <br> adalah elemen HTML yang digunakan untuk membuat baris baru dalam dokumen HTML. 
+    Ini berguna untuk memisahkan teks atau elemen lain dalam halaman web.
+    -->
+    <br><br>
+
+    <!--
+    Tag <p> adalah elemen HTML yang digunakan untuk membuat paragraf teks pada halaman web. 
+    Ini membungkus beberapa baris teks sehingga dapat ditampilkan sebagai satu paragraf yang terformat dengan baik.
+    -->
+    <p>Ini adalah sebuah paragraf yang panjang dan memiliki banyak informasi yang beragam dan berkaitan satu sama lain yang membentuk suatu kesatuan dan memberikan makna yang jelas dan teratur.</p>
+    
+    <br><br>
+
+    <!-- 
+    Tag <a> adalah elemen HTML untuk membuat tautan atau link. Dalam contoh ini, teks "Website Orbit Future Academy"
+    akan ditampilkan sebagai tautan yang mengarah ke alamat URL "https://orbitfutureacademy.id/". 
+    Pengguna dapat mengklik tautan ini untuk mengunjungi situs web Orbit Future Academy. 
+    -->
+    <a href="https://orbitfutureacademy.id/">Website Orbit Future Academy</a>
+
+    <br><br>
+
+    <!-- 
+    Tag <img> adalah elemen HTML untuk memasukkan gambar pada halaman web. Dalam contoh ini, gambar bernama "gambar1.jpg" 
+    akan ditampilkan dalam halaman dan diambil dari folder "assets". Attribut "alt" berisi teks alternatif yang akan 
+    ditampilkan jika gambar tidak bisa dimuat dengan benar.
+    -->
+    <img src="assets/gambar1.jpg" alt="ini adalah logo orbit future academy">
+
+    <br><br>
+
+    <!-- 
+    Tag <audio> adalah elemen HTML yang digunakan untuk memasukkan suara atau audio pada halaman web. 
+    Dalam contoh ini, audio bernama "suara1.mp3" akan ditampilkan pada halaman dan diambil dari folder "media". 
+    Attribut "controls" memberikan kontrol pemutar audio pada halaman web seperti play, pause, dan volume.
+    -->
+    <audio controls>
+        <source src="media/suara1.mp3" type="audio/mp3">
+        ini adalah contoh tag html untuk menampilkan suara.
+    </audio>
+
+    <br><br>
+
+    <!-- 
+    Tag <video> adalah elemen HTML yang digunakan untuk memasukkan video pada halaman web. 
+    Dalam contoh ini, video bernama "video.mp4" akan ditampilkan pada halaman dengan lebar 500 pixel, 
+    dan diambil dari folder "media". Attribut "controls" memberikan kontrol pemutar video pada halaman web seperti 
+    play, pause, dan volume.
+    -->
+    <video width="500" controls>
+        <source src="media/video.mp4" type="video/mp4">
+        ini adalah contoh tag html untuk menampilkan video.
+    </video>
+
+    <br><br>
+
+    <!-- 
+    Tag <ul> adalah elemen HTML yang digunakan untuk membuat daftar dengan tanda bullet. 
+    Dalam contoh ini, tag <li> digunakan untuk membuat item pada daftar, seperti "Coffee", "Tea", dan "Milk". 
+    Ini memberikan tampilan daftar yang terstruktur dan mudah dibaca untuk pengguna.
+    -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <br><br>
+
+    <!-- 
+    Tag <ol> adalah elemen HTML yang digunakan untuk membuat daftar berurutan. Dalam contoh ini, tag <li> 
+    digunakan untuk membuat item pada daftar, seperti "Coffee", "Tea", dan "Milk". 
+    Ini memberikan tampilan daftar yang terstruktur dan berurutan, dengan nomor atau angka untuk setiap item.
+    -->
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <br><br>
+
+    <!-- 
+    Tag <table> adalah elemen HTML yang digunakan untuk membuat tabel. 
+    Dalam contoh ini, tag <tr> digunakan untuk membuat baris pada tabel, dan tag <th> dan <td> 
+    digunakan untuk membuat header dan data pada masing-masing kolom. 
+    Ini memberikan tampilan tabel yang terstruktur dan mudah dibaca untuk pengguna, 
+    yang berguna untuk menampilkan data yang berhubungan dalam bentuk tabel.
+    -->
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- 
+    Tag <form> adalah elemen HTML yang digunakan untuk membuat form pada halaman web. 
+    Form memungkinkan pengguna untuk memasukkan data seperti teks, pilihan, file dan lain-lain, 
+    yang dapat dikirimkan ke server untuk diolah. Form harus diterima oleh sebuah script di server 
+    untuk memproses data yang diterima. Dalam form, elemen seperti input, checkbox, radio button, 
+    select option, text area, dll dapat digunakan.
+    -->
+    <h3>Buat Akun Baru</h3>
+    <form action="">
+        <!-- 
+        Elemen <label> digunakan untuk memberikan label pada elemen form seperti elemen <input>. 
+        Atribut for digunakan untuk menentukan elemen form mana yang akan diberikan label. 
+        Dalam hal ini, label "Nama:" diterapkan pada elemen <input type="text"> dengan id "text". 
+        Elemen <br> digunakan untuk membuat baris baru.
+        -->
+        <label for="text">Nama:</label><br>
+
+        <!-- 
+        Sebuah elemen HTML yang digunakan untuk membuat sebuah kotak teks pada form. 
+        Pengguna dapat memasukkan teks ke dalam kotak tersebut. 
+        Atribut id digunakan untuk memberikan identifikasi unik pada elemen <input>, 
+        sedangkan atribut name memberikan nama pada data yang akan dikirimkan ke server ketika form dikirim. 
+        -->
+        <input type="text" id="text" name="text"><br><br>
+    
+
+        <label for="email">Email:</label><br>
+        <!-- Sebuah type elemen HTML yang digunakan untuk membuat sebuah kotak teks untuk memasukkan alamat email. -->
+        <input type="email" id="email" name="email"><br><br>
+    
+
+        <label for="password">Password:</label><br>
+        <!-- sebuah elemen HTML yang digunakan untuk membuat sebuah kotak teks untuk memasukkan password. 
+        Saat data diketik, karakter akan ditampilkan sebagai tanda bintang (*) untuk memastikan keamanan password. -->
+        <input type="password" id="password" name="password"><br><br>
+        
+
+        <label for="password">Ulangi Password:</label><br>
+        <input type="password" id="password" name="password2"><br><br>
+    
+
+        <label for="number">Nomor HP:</label><br>
+        <!--  sebuah elemen HTML yang digunakan untuk membuat sebuah kotak teks untuk memasukkan angka. 
+        Ini memastikan bahwa data yang dimasukkan oleh pengguna harus dalam bentuk angka dan 
+        tidak akan diterima jika pengguna memasukkan huruf atau simbol. -->
+        <input type="number" id="number" name="number"><br><br>
+    
+
+        <label for="date">Tanggal Lahir:</label><br>
+        <!-- elemen HTML yang digunakan untuk membuat sebuah kotak teks untuk memasukkan tanggal. 
+        Ini memastikan bahwa data yang dimasukkan oleh pengguna harus dalam bentuk tanggal dan 
+        akan diterima oleh browser dalam format yang ditentukan (umumnya yyyy-mm-dd). -->
+        <input type="date" id="date" name="date"><br><br>
+    
+
+        <label for="radio">Jenis Kelamin:</label><br>
+        <!-- Input "radio" adalah tipe input yang digunakan untuk membuat pilihan ganda pada form. 
+        Dalam contoh ini, ada 2 pilihan, yaitu "Wanita" dan "Pria". 
+        Hanya satu pilihan yang bisa dipilih oleh pengguna dengan memilih salah satu dari kedua tombol radio tersebut.  -->
+        <input type="radio" id="radio" name="radio" value="woman">Wanita
+        <input type="radio" name="radio" value="man">Pria<br><br>
+    
+
+        <label for="checkbox">Hobi:</label><br>
+        <!-- Tag input dengan tipe checkbox adalah elemen HTML yang memungkinkan pengguna memilih beberapa opsi 
+        dari sekumpulan opsi yang tersedia. Setiap opsi ditampilkan sebagai kotak centang, dan pengguna dapat memilih 
+        lebih dari satu opsi dengan mencentang beberapa kotak centang. 
+        Dalam contoh ini, tiga opsi yang tersedia adalah "Makan", "Tidur", dan "Olahraga". -->
+        <input type="checkbox" id="checkbox" name="checkbox" value="makan">Makan<br>
+        <input type="checkbox" name="checkbox" value="tidur">Tidur<br>
+        <input type="checkbox" name="checkbox" value="olahraga">Olahraga<br><br>
+    
+
+        <label for="select">Pendidikan Terakhir:</label><br>
+        <!-- Tag <select> digunakan untuk membuat pilihan dropdown. 
+        Dalam tag ini terdapat beberapa <option> yang berisi pilihan-pilihan yang bisa dipilih oleh pengguna. 
+        Misalnya dalam contoh ini, ada pilihan pendidikan dari SD hingga S3. -->
+        <select id="select" name="select">
+            <option value="sd">SD</option>
+            <option value="smp">SMP</option>
+            <option value="sma">SMA</option>
+            <option value="D3">D3</option>
+            <option value="S1">D4/S1</option>
+            <option value="S2">S2</option>
+            <option value="S3">S3</option>
+        </select><br><br>
+    
+
+        <!-- "Submit" adalah tombol yang memproses data dari form yang telah diisi. 
+        Saat tombol ini diklik, data akan dikirim ke server untuk diproses. 
+        "Input type=submit" adalah salah satu jenis input HTML yang digunakan dalam pembuatan form. -->
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
