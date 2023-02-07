@@ -7,4 +7,4 @@ by Team AID - Orbit Future Academy
 </h3>
 
 <br>
-Untuk melihat html dan css yang rapi bisa membuka folder **[Contoh Website Rapi](https://github.com/afrizalmeka/AID-1-Web-Development/tree/main/Contoh%20Website%20Rapi")**,
+Untuk melihat html dan css yang rapi bisa membuka folder <a href="https://github.com/afrizalmeka/AID-1-Web-Development/tree/main/Contoh%20Website%20Rapi"><strong>Contoh Website Rapi</a>
