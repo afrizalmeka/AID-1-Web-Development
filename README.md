@@ -16,7 +16,11 @@ Cara pertama : Download ZIP ini dengan mengikuti langkah ini
 
 <br>
 Cara kedua : Git Clone
-Melakukan git clone di terminal dengan memasukkan `git clone https://github.com/afrizalmeka/AID-1-Web-Development.git`.
+Melakukan git clone di terminal dengan memasukkan
+
+```
+$ git clone https://github.com/afrizalmeka/AID-1-Web-Development.git
+```
 
 Pada langkah ini anda diharuskan sudah menginstall git pada pc anda, jika belum bisa download di link ini `https://git-scm.com/downloads` lalu di install pada pc anda
 
