@@ -1,0 +1,40 @@
+p {
+    font-family: Arial;
+}
+
+.mono {
+    font-family: monospace;
+}
+
+.sans {
+    font-size: 22pt;
+    font-family: sans-serif;
+}
+
+#p1 {
+    font-size: 20pt;    
+}
+
+#p2 {
+    font-size: 2em;
+}
+
+#p3 {
+    font-family: serif;
+}
+
+#p4 {
+    font-family: sans-serif;
+}
+
+#p5 {
+    font-variant: small-caps;
+}
+
+#p6 {
+    font-variant: normal;
+}
+
+#p7 {
+    font-variant: all-small-caps;
+}
