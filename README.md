@@ -2,13 +2,6 @@
 by Team AID - Orbit Future Academy
 
 <br>
-<h2 align="center">
-  Panduan Hands On AID-1-Web Development
-</h2>
-Panduan untuk belajar membuat sebuah website untuk mahasiswa/peserta program Orbit Future Academy
-
-
-<br>
 
 ## First Step (pilih salah satu cara)
 Cara pertama : Download ZIP ini dengan mengikuti langkah ini
