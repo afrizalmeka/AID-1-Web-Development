@@ -67,6 +67,6 @@ Double-click file html yang akan dibuka
 
 ![Untitled](https://user-images.githubusercontent.com/43577717/217278646-b70dfebd-1af3-46fe-ac46-c91a7f41c860.png)
 
-## Refensi Self-Learning
+## Referensi Self-Learning
 
 Untuk melihat html dan css yang sudah jadi (rapi) bisa membuka folder **[Contoh Website Rapi](https://github.com/afrizalmeka/AID-1-Web-Development/tree/main/Contoh%20Website%20Rapi)**
